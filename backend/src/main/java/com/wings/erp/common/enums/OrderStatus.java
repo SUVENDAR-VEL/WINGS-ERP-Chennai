@@ -1,0 +1,4 @@
+package com.wings.erp.common.enums;
+public enum OrderStatus {
+    DRAFT, CONFIRMED, PLANNED, IN_PRODUCTION, PARTIALLY_COMPLETED, READY_FOR_DISPATCH, COMPLETED, CANCELLED
+}

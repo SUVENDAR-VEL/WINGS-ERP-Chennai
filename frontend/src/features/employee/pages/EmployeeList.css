@@ -1,0 +1,15 @@
+/* Add some utility classes since we don't have tailwind */
+.w-full { width: 100%; }
+.text-left { text-align: left; }
+.border-collapse { border-collapse: collapse; }
+.p-4 { padding: 1rem; }
+.border-b { border-bottom-width: 1px; border-style: solid; }
+.border-gray-200 { border-color: #E5E7EB; }
+.border-gray-100 { border-color: #F3F4F6; }
+.font-semibold { font-weight: 600; }
+.text-sm { font-size: 0.875rem; }
+.text-gray-600 { color: #4B5563; }
+.bg-gray-50\/50 { background-color: rgba(249, 250, 251, 0.5); }
+.hover\:bg-gray-50\/50:hover { background-color: rgba(249, 250, 251, 0.5); }
+.transition-colors { transition-property: background-color, border-color, color, fill, stroke; transition-duration: 150ms; }
+.mr-2 { margin-right: 0.5rem; }
